@@ -25,4 +25,11 @@ fun main() {
 
     println("===========================")
 
+    println(salarys.find { it == 3000.0 })
+    println(salarys.find { it == 5236.0 })
+
+    println("===========================")
+
+    println(salarys.any { it == 5236.0 })
+    println(salarys.any { it == 3000.0 })
 }
